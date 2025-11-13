@@ -1,7 +1,7 @@
 {
-  "name": "deepcart-sdk-ts",
+  "name": "@deepcart/client",
   "version": "1.0.0",
-  "description": "TypeScript SDK for DeepCart Platform",
+  "description": "TypeScript client for DeepCart API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,14 +10,22 @@
     "lint": "eslint src --ext .ts",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepCart/deepcart-sdk-ts.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "deepcart",
+    "client",
     "sdk",
     "typescript",
     "api"
   ],
   "author": "",
-  "license": "MIT",
+  "license": "Proprietary",
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/node": "^20.0.0",

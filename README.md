@@ -1,17 +1,19 @@
-# deepcart-sdk-ts
+# @deepcart/client
 
-TypeScript SDK for DeepCart Platform
+TypeScript client for DeepCart API - framework-agnostic API wrapper for interacting with the DeepCart platform.
+
+For React components, see [@deepcart/react](https://github.com/DeepCart/deepcart-react) (coming soon).
 
 ## Installation
 
 ```bash
-npm install deepcart-sdk-ts
+npm install @deepcart/client
 ```
 
 ## Usage
 
 ```typescript
-import { DeepCartClient } from 'deepcart-sdk-ts';
+import { DeepCartClient } from '@deepcart/client';
 
 // Initialize the client with your API credentials
 const client = new DeepCartClient({

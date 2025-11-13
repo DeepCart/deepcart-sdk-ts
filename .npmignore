@@ -1,0 +1,32 @@
+# Source files
+src/
+
+# Development files
+*.test.ts
+*.spec.ts
+example.ts
+CLAUDE.md
+
+# Configuration files
+tsconfig.json
+jest.config.js
+.eslintrc.js
+
+# IDE and editor files
+.claude/
+.vscode/
+.idea/
+
+# Version control
+.git/
+.gitignore
+
+# CI/CD
+.github/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*

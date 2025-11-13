@@ -22,6 +22,7 @@ describe('DeepCartClient', () => {
       post: mockPost,
       put: mockPut,
       delete: mockDelete,
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } as any;
 
     mockedAxios.create.mockReturnValue(mockAxiosInstance);

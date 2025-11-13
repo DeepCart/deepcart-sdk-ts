@@ -84,4 +84,4 @@ npm run lint
 
 ## License
 
-Proprietary
+MIT

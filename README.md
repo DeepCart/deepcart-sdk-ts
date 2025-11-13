@@ -1,5 +1,10 @@
 # @deepcart/client
 
+[![npm version](https://img.shields.io/npm/v/@deepcart/client.svg)](https://www.npmjs.com/package/@deepcart/client)
+[![npm downloads](https://img.shields.io/npm/dm/@deepcart/client.svg)](https://www.npmjs.com/package/@deepcart/client)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/DeepCart/deepcart-sdk-ts/workflows/CI/badge.svg)](https://github.com/DeepCart/deepcart-sdk-ts/actions)
+
 TypeScript client for DeepCart API - framework-agnostic API wrapper for interacting with the DeepCart platform.
 
 For React components, see [@deepcart/react](https://github.com/DeepCart/deepcart-react) (coming soon).
@@ -81,6 +86,10 @@ npm test
 # Lint code
 npm run lint
 ```
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
 
 ## License
 
